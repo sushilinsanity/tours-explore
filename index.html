@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Natours | Exciting tours for adventurous people</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>About BeyondInsanity</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>03</span>Popular tours</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <!-- <img src="img/logo-white.png" alt="Logo" class="header__logo" /> -->
+        <div class="header__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172" style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""  stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path d="M55.15149,1.6167c-0.51021,-0.021 -1.03143,0.06351 -1.53534,0.26508c-2.15,0.80625 -3.22605,3.08905 -2.4198,5.10468l2.28595,6.3172c0.40312,0.94063 1.07448,1.8802 2.14948,2.28332c0.94063,0.40313 2.01405,0.53698 3.08905,0.13385c18.00625,-6.58438 36.68647,-6.71875 52.54272,-0.67187c13.70625,5.375 24.4552,15.0521 31.17395,28.35522c-9.40625,-2.6875 -19.48385,0.93958 -24.99322,9.00208l-0.9422,1.34375c-5.64375,-13.16875 -13.1677,-24.32292 -21.7677,-32.65417c-1.6125,-1.47813 -4.16458,-1.47603 -5.6427,0.13647c-1.47812,1.6125 -1.47865,4.16458 0.13385,5.6427c7.79375,7.39063 14.3776,17.4698 19.61822,29.2948l-1.4776,-0.40417c-4.70312,-1.34375 -9.54062,-1.075 -14.10937,0.67188c-2.15,0.80625 -3.09168,3.09115 -2.4198,5.24115c0.80625,2.15 3.09115,3.08905 5.24115,2.41718c2.95625,-1.075 6.04792,-1.2078 9.13855,-0.40155l9.26978,2.55365c0.40312,0.13438 0.67292,0.13385 1.07605,0.13385c1.34375,0 2.55313,-0.67293 3.35938,-1.74793l5.24115,-7.52447c3.7625,-5.375 10.3474,-7.66042 16.66302,-5.77917l7.65833,2.4198c1.47813,0.40312 3.0901,-0.00105 4.1651,-1.07605c1.075,-1.075 1.34532,-2.68698 0.9422,-4.1651c-7.12187,-19.35 -21.0974,-33.8625 -39.50677,-40.98437c-16.52813,-6.31563 -35.60937,-6.58438 -54.42187,-0.67187l-0.9422,-2.55365c-0.60469,-1.6125 -2.03872,-2.61926 -3.56934,-2.68225zM37.76935,17.58685c-0.78814,0.00709 -1.58835,0.23411 -2.29382,0.68762c-28.4875,19.61875 -39.77658,52.27135 -28.48908,83.44635c0.5375,1.47812 1.88125,2.41875 3.35938,2.6875h0.40417c1.34375,0 2.6875,-0.66978 3.35938,-1.87915l4.29895,-6.85522c1.74687,-2.6875 4.16667,-4.70103 7.12292,-5.9104c2.01563,-0.80625 3.08958,-3.09115 2.28333,-5.24115c-0.80625,-2.01562 -3.08853,-3.0922 -5.23853,-2.28595c-4.43437,1.6125 -8.06302,4.5698 -10.61615,8.46667c-5.64375,-25.2625 4.56927,-49.85365 28.0849,-65.7099c1.88125,-1.20938 2.2828,-3.76145 1.07343,-5.6427c-0.75586,-1.17578 -2.03531,-1.77548 -3.34888,-1.76367zM63.61554,24.86462c-0.51021,-0.021 -1.03143,0.06089 -1.53534,0.26245c-2.15,0.80625 -3.22343,3.09167 -2.41718,5.1073l14.10938,38.8349l-1.74793,-0.53803c-9.40625,-2.55312 -19.48385,1.07605 -24.99322,9.13855l-0.80572,1.20728c-3.62812,-12.3625 -4.97293,-24.45573 -3.76355,-35.07135c0.13437,-2.01562 -1.3427,-4.0302 -3.62707,-4.29895c-2.15,-0.26875 -4.16668,1.3427 -4.43543,3.62707c-1.47812,13.975 0.80625,29.96615 6.71875,46.22553c0.5375,1.47812 1.7474,2.41875 3.22553,2.6875h0.53803c1.34375,0 2.55312,-0.67292 3.35938,-1.74792l5.50885,-7.92603c3.62813,-5.24062 10.07813,-7.52552 16.125,-5.91302l8.60053,2.41718c0.67188,0.40312 1.47655,0.4047 2.41718,0.27032c1.88125,-0.26875 3.225,-1.8823 3.35938,-3.76355c0,-0.5375 0.00105,-1.07395 -0.2677,-1.61145c-0.5375,-1.74688 -16.79687,-46.22553 -16.79687,-46.22553c-0.60469,-1.6125 -2.04135,-2.61926 -3.57196,-2.68225zM165.51745,72.49689c-0.76451,-0.04016 -1.54636,0.15012 -2.25183,0.60364l-57.51355,34.53332c-1.88125,1.20938 -2.55313,3.6276 -1.34375,5.50885l0.13647,0.13647v0.13385l38.43072,55.63177c0.80625,1.075 2.01563,1.7453 3.35938,1.7453c0.80625,0 1.61145,-0.26875 2.28333,-0.67187c1.88125,-1.20937 2.28542,-3.76145 1.07605,-5.6427l-36.1474,-52.13855l24.85938,-14.9151c-2.28438,5.64375 -4.97083,11.6901 -8.3302,17.6026c-1.075,2.01563 -0.53802,4.43385 1.4776,5.50885c0.67188,0.40312 1.34375,0.53802 2.01563,0.53802c1.34375,0 2.68697,-0.67187 3.49322,-2.01562c5.24062,-9.1375 8.8677,-18.54427 11.68958,-26.06927c0.26875,-0.80625 0.67345,-1.61093 0.9422,-2.41718l17.73645,-10.61615c1.88125,-1.20937 2.55312,-3.6276 1.34375,-5.50885c-0.75586,-1.17578 -1.98282,-1.88046 -3.25702,-1.94739zM86.45929,87.48285c-0.51021,-0.021 -1.03143,0.06351 -1.53534,0.26507c-2.15,0.80625 -3.22343,3.08905 -2.41718,5.10468l27.41302,75.11615c0.5375,1.6125 2.14843,2.6875 3.76093,2.6875c0.40313,0 0.94063,-0.13333 1.34375,-0.2677c2.15,-0.80625 3.22605,-3.09167 2.4198,-5.1073l-27.41303,-75.11615c-0.60469,-1.6125 -2.04135,-2.61926 -3.57196,-2.68225zM83.41223,121.81409c-0.76452,-0.04016 -1.54374,0.1475 -2.24921,0.60101l-31.84845,19.21667c-4.70312,-1.20937 -9.53905,-2.68802 -14.51093,-4.56927c-2.15,-0.80625 -4.43543,0.2698 -5.1073,2.4198c-0.80625,2.15 0.2698,4.4328 2.4198,5.10468c2.6875,0.94063 5.23905,1.88125 7.79218,2.6875l-26.20312,15.8573c-1.88125,1.20937 -2.55313,3.6276 -1.34375,5.50885c1.075,1.34375 2.4198,2.01563 3.76355,2.01563c0.67188,0 1.47812,-0.1349 2.01563,-0.53802l32.65417,-19.75208c9.675,2.28438 18.54375,3.49323 26.875,3.49323c4.70313,0 9.27135,-0.40365 13.57135,-1.2099c2.15,-0.40312 3.62865,-2.41875 3.22552,-4.70312c-0.40312,-2.15 -2.55313,-3.62865 -4.70312,-3.22552c-8.6,1.47813 -18.2771,1.34585 -29.0271,-0.5354l24.59167,-14.91772c1.88125,-1.20938 2.55313,-3.6276 1.34375,-5.50885c-0.75586,-1.17578 -1.98544,-1.87784 -3.25964,-1.94476z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Egypt</span>
+          <span class="heading-primary--sub">place where history lives</span>
+        </h1>
+        <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Exciting tours for adventurous people
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              You're going to fall in love with history
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
+              quam nisi exercitationem omnis earum qui.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Experience history like you never have before
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores nulla deserunt voluptatum nam.
+            </p>
+
+            <a href="#" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/egypt-4.jpg 300w, img/egypt-4.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/egypt-4.jpg"
+              />
+
+              <img
+                srcset="img/egypt-7.jpg 300w, img/egypt-7.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/egypt-7.jpg"
+              />
+
+              <img
+                srcset="img/egypt-2.jpg 300w, img/egypt-2.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/egypt-2.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-world"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Explore the world
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-compass"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Meet nature
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-map"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Find your way
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-heart"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Live a healthier life
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Most popular tours</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >The Sea Explorer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Difficulty: easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$297</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >The Forest Hiker</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$497</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >The Snow Adventurer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>5 day tours</li>
+                    <li>Up to 15 people</li>
+                    <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: hard</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$897</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">Discover all tours</a>
+        </div>
+      </section>
+
+      <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Mary Smith</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! My life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start booking now</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Large tour group
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <!-- <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full logo"
+            src="img/logo-green-2x.png"
+          />
+        </picture> -->
+        <div class="footer__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172" style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#14a49c">
+                <path d="M55.15149,1.6167c-0.51021,-0.021 -1.03143,0.06351 -1.53534,0.26508c-2.15,0.80625 -3.22605,3.08905 -2.4198,5.10468l2.28595,6.3172c0.40312,0.94063 1.07448,1.8802 2.14948,2.28332c0.94063,0.40313 2.01405,0.53698 3.08905,0.13385c18.00625,-6.58438 36.68647,-6.71875 52.54272,-0.67187c13.70625,5.375 24.4552,15.0521 31.17395,28.35522c-9.40625,-2.6875 -19.48385,0.93958 -24.99322,9.00208l-0.9422,1.34375c-5.64375,-13.16875 -13.1677,-24.32292 -21.7677,-32.65417c-1.6125,-1.47813 -4.16458,-1.47603 -5.6427,0.13647c-1.47812,1.6125 -1.47865,4.16458 0.13385,5.6427c7.79375,7.39063 14.3776,17.4698 19.61822,29.2948l-1.4776,-0.40417c-4.70312,-1.34375 -9.54062,-1.075 -14.10937,0.67188c-2.15,0.80625 -3.09168,3.09115 -2.4198,5.24115c0.80625,2.15 3.09115,3.08905 5.24115,2.41718c2.95625,-1.075 6.04792,-1.2078 9.13855,-0.40155l9.26978,2.55365c0.40312,0.13438 0.67292,0.13385 1.07605,0.13385c1.34375,0 2.55313,-0.67293 3.35938,-1.74793l5.24115,-7.52447c3.7625,-5.375 10.3474,-7.66042 16.66302,-5.77917l7.65833,2.4198c1.47813,0.40312 3.0901,-0.00105 4.1651,-1.07605c1.075,-1.075 1.34532,-2.68698 0.9422,-4.1651c-7.12187,-19.35 -21.0974,-33.8625 -39.50677,-40.98437c-16.52813,-6.31563 -35.60937,-6.58438 -54.42187,-0.67187l-0.9422,-2.55365c-0.60469,-1.6125 -2.03872,-2.61926 -3.56934,-2.68225zM37.76935,17.58685c-0.78814,0.00709 -1.58835,0.23411 -2.29382,0.68762c-28.4875,19.61875 -39.77658,52.27135 -28.48908,83.44635c0.5375,1.47812 1.88125,2.41875 3.35938,2.6875h0.40417c1.34375,0 2.6875,-0.66978 3.35938,-1.87915l4.29895,-6.85522c1.74687,-2.6875 4.16667,-4.70103 7.12292,-5.9104c2.01563,-0.80625 3.08958,-3.09115 2.28333,-5.24115c-0.80625,-2.01562 -3.08853,-3.0922 -5.23853,-2.28595c-4.43437,1.6125 -8.06302,4.5698 -10.61615,8.46667c-5.64375,-25.2625 4.56927,-49.85365 28.0849,-65.7099c1.88125,-1.20938 2.2828,-3.76145 1.07343,-5.6427c-0.75586,-1.17578 -2.03531,-1.77548 -3.34888,-1.76367zM63.61554,24.86462c-0.51021,-0.021 -1.03143,0.06089 -1.53534,0.26245c-2.15,0.80625 -3.22343,3.09167 -2.41718,5.1073l14.10938,38.8349l-1.74793,-0.53803c-9.40625,-2.55312 -19.48385,1.07605 -24.99322,9.13855l-0.80572,1.20728c-3.62812,-12.3625 -4.97293,-24.45573 -3.76355,-35.07135c0.13437,-2.01562 -1.3427,-4.0302 -3.62707,-4.29895c-2.15,-0.26875 -4.16668,1.3427 -4.43543,3.62707c-1.47812,13.975 0.80625,29.96615 6.71875,46.22553c0.5375,1.47812 1.7474,2.41875 3.22553,2.6875h0.53803c1.34375,0 2.55312,-0.67292 3.35938,-1.74792l5.50885,-7.92603c3.62813,-5.24062 10.07813,-7.52552 16.125,-5.91302l8.60053,2.41718c0.67188,0.40312 1.47655,0.4047 2.41718,0.27032c1.88125,-0.26875 3.225,-1.8823 3.35938,-3.76355c0,-0.5375 0.00105,-1.07395 -0.2677,-1.61145c-0.5375,-1.74688 -16.79687,-46.22553 -16.79687,-46.22553c-0.60469,-1.6125 -2.04135,-2.61926 -3.57196,-2.68225zM165.51745,72.49689c-0.76451,-0.04016 -1.54636,0.15012 -2.25183,0.60364l-57.51355,34.53332c-1.88125,1.20938 -2.55313,3.6276 -1.34375,5.50885l0.13647,0.13647v0.13385l38.43072,55.63177c0.80625,1.075 2.01563,1.7453 3.35938,1.7453c0.80625,0 1.61145,-0.26875 2.28333,-0.67187c1.88125,-1.20937 2.28542,-3.76145 1.07605,-5.6427l-36.1474,-52.13855l24.85938,-14.9151c-2.28438,5.64375 -4.97083,11.6901 -8.3302,17.6026c-1.075,2.01563 -0.53802,4.43385 1.4776,5.50885c0.67188,0.40312 1.34375,0.53802 2.01563,0.53802c1.34375,0 2.68697,-0.67187 3.49322,-2.01562c5.24062,-9.1375 8.8677,-18.54427 11.68958,-26.06927c0.26875,-0.80625 0.67345,-1.61093 0.9422,-2.41718l17.73645,-10.61615c1.88125,-1.20937 2.55312,-3.6276 1.34375,-5.50885c-0.75586,-1.17578 -1.98282,-1.88046 -3.25702,-1.94739zM86.45929,87.48285c-0.51021,-0.021 -1.03143,0.06351 -1.53534,0.26507c-2.15,0.80625 -3.22343,3.08905 -2.41718,5.10468l27.41302,75.11615c0.5375,1.6125 2.14843,2.6875 3.76093,2.6875c0.40313,0 0.94063,-0.13333 1.34375,-0.2677c2.15,-0.80625 3.22605,-3.09167 2.4198,-5.1073l-27.41303,-75.11615c-0.60469,-1.6125 -2.04135,-2.61926 -3.57196,-2.68225zM83.41223,121.81409c-0.76452,-0.04016 -1.54374,0.1475 -2.24921,0.60101l-31.84845,19.21667c-4.70312,-1.20937 -9.53905,-2.68802 -14.51093,-4.56927c-2.15,-0.80625 -4.43543,0.2698 -5.1073,2.4198c-0.80625,2.15 0.2698,4.4328 2.4198,5.10468c2.6875,0.94063 5.23905,1.88125 7.79218,2.6875l-26.20312,15.8573c-1.88125,1.20937 -2.55313,3.6276 -1.34375,5.50885c1.075,1.34375 2.4198,2.01563 3.76355,2.01563c0.67188,0 1.47812,-0.1349 2.01563,-0.53802l32.65417,-19.75208c9.675,2.28438 18.54375,3.49323 26.875,3.49323c4.70313,0 9.27135,-0.40365 13.57135,-1.2099c2.15,-0.40312 3.62865,-2.41875 3.22552,-4.70312c-0.40312,-2.15 -2.55313,-3.62865 -4.70312,-3.22552c-8.6,1.47813 -18.2771,1.34585 -29.0271,-0.5354l24.59167,-14.91772c1.88125,-1.20938 2.55313,-3.6276 1.34375,-5.50885c-0.75586,-1.17578 -1.98544,-1.87784 -3.25964,-1.94476z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Exploring at the <a href="#" class="footer__link">Beginning</a> and
+            possible
+            <a href="#" class="footer__link">Ending</a> of humanity.
+            Copyright &copy; by <a href="#" class="footer__link">Beyond Insanity</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+            Malesuada pellentesque elit eget gravida cum sociis natoque
+            penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+            laoreet. Gravida neque convallis a cras semper. Molestie at
+            elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+            nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet
+            sit. Amet massa vitae tortor condimentum lacinia quis vel eros
+            donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
+            porta.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
